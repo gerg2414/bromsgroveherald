@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Bromsgrove couple lose thousands to cowboy builder - The Bromsgrove Herald</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400&family=Source+Serif+4:ital,opsz,wght@0,8..60,300;0,8..60,400;0,8..60,600;1,8..60,300;1,8..60,400&family=Barlow:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400&family=Source+Serif+4:ital,opsz,wght@0,8..60,300;0,8..60,400;0,8..60,600;1,8..60,300;1,8..60,400&family=Barlow:wght@400;500;600;700&display=swap" rel="stylesheet">
   <script>
     !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
     n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
@@ -36,10 +36,13 @@
     nav ul { display: flex; list-style: none; padding: 0; min-width: max-content; width: 100%; justify-content: center; }
     nav ul li a { display: block; font-family: "Barlow", sans-serif; font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.06em; color: #fff; padding: 10px 12px; white-space: nowrap; transition: background 0.15s; }
     nav ul li a:hover { background: rgba(0,0,0,0.2); color: #fff; }
-    .ad-banner { background: var(--bg); border: 1px dashed #bbb; text-align: center; padding: 14px 16px; }
-    .ad-label { font-family: "Barlow", sans-serif; font-size: 10px; letter-spacing: 0.08em; text-transform: uppercase; color: #999; margin-bottom: 6px; }
-    .ad-placeholder { background: #e4e0d9; height: 60px; display: flex; align-items: center; justify-content: center; font-family: "Barlow", sans-serif; font-size: 11px; color: #aaa; letter-spacing: 0.04em; }
+    footer { background: var(--dark); color: #888; padding: 24px 16px; font-family: "Barlow", sans-serif; font-size: 11px; text-align: center; letter-spacing: 0.03em; line-height: 2; }
+    footer a { color: #888; }
+    footer a:hover { color: #fff; }
+    .footer-title { font-family: "Playfair Display", serif; font-size: 18px; font-weight: 900; color: #fff; margin-bottom: 8px; }
     .container { max-width: 700px; margin: 0 auto; padding: 0 16px; }
+    .ad-banner { text-align: center; margin: 0; padding: 0; line-height: 0; }
+    .ad-banner img { width: 100%; display: block; }
     .breadcrumb { font-family: "Barlow", sans-serif; font-size: 11px; color: #aaa; padding: 12px 0 0; letter-spacing: 0.03em; }
     .breadcrumb a { color: var(--red); }
     .breadcrumb span { margin: 0 5px; }
@@ -69,10 +72,7 @@
     .related-thumb { width: 60px; height: 60px; flex-shrink: 0; border-radius: 2px; }
     .related-item-headline { font-family: "Playfair Display", serif; font-size: 14px; font-weight: 700; line-height: 1.3; color: var(--dark); }
     .related-item-date { font-family: "Barlow", sans-serif; font-size: 10px; color: #aaa; margin-top: 4px; }
-    footer { background: var(--dark); color: #888; padding: 24px 16px; font-family: "Barlow", sans-serif; font-size: 11px; text-align: center; letter-spacing: 0.03em; line-height: 2; width: 100vw; position: relative; left: 50%; right: 50%; margin-left: -50vw; margin-right: -50vw; }
-    footer a { color: #888; }
-    .footer-title { font-family: "Playfair Display", serif; font-size: 18px; font-weight: 900; color: #fff; margin-bottom: 8px; }
-    @media (min-width: 600px) { .article-hero { height: 300px; } .ad-placeholder { height: 90px; } }
+    @media (min-width: 600px) { .article-hero { height: 300px; } }
   </style>
 </head>
 <body>
@@ -85,149 +85,80 @@
       <a href="index.html">Advertise</a>
     </div>
   </div>
-
   <header class="masthead">
     <div class="masthead-eyebrow">Serving Bromsgrove &amp; District Since 1858</div>
     <a href="index.html"><div class="masthead-title">The Bromsgrove <span>Herald</span></div></a>
     <div class="masthead-date" id="js-masthead-date"></div>
   </header>
-
   <nav>
     <ul>
       <li><a href="index.html">News</a></li>
-      <li><a href="#">Sport</a></li>
-      <li><a href="#">Business</a></li>
-      <li><a href="#">Community</a></li>
-      <li><a href="#">Property</a></li>
-      <li><a href="#">Jobs</a></li>
-      <li><a href="#">Obituaries</a></li>
-      <li><a href="#">Letters</a></li>
+      <li><a href="index.html">Sport</a></li>
+      <li><a href="index.html">Business</a></li>
+      <li><a href="index.html">Community</a></li>
+      <li><a href="index.html">Property</a></li>
+      <li><a href="index.html">Jobs</a></li>
+      <li><a href="index.html">Obituaries</a></li>
+      <li><a href="index.html">Letters</a></li>
     </ul>
   </nav>
-
-  <div class="ad-banner"><div class="container"><div class="ad-label">Advertisement</div><div class="ad-placeholder">[ AD SLOT: TOP BANNER — 320x50 mobile / 728x90 desktop ]</div></div></div>
-
+  <div class="ad-banner"><img src="ad1-builder.jpg" alt="Advertisement"></div>
   <div class="container">
-
-    <div class="breadcrumb">
-      <a href="index.html">Home</a><span>&rsaquo;</span>
-      <a href="#">News</a><span>&rsaquo;</span>
-      <a href="#">Consumer</a>
-    </div>
-
+    <div class="breadcrumb"><a href="index.html">Home</a><span>&rsaquo;</span><a href="index.html">News</a><span>&rsaquo;</span><a href="index.html">Consumer</a></div>
     <div class="article-kicker">Consumer Warning - Building Work</div>
     <h1 class="article-headline">"We checked everything and he still robbed us blind": Bromsgrove couple lose thousands to cowboy builder</h1>
     <div class="article-standfirst">Sarah and Mark Mitchell did everything by the book before hiring a builder for their home extension. They checked reviews, requested insurance documents, and signed a contract. Months later the extension sits unfinished, the builder has vanished, and they are £6,000 out of pocket.</div>
-
     <div class="article-meta">
       <span class="meta-tag">Consumer</span>
       <span>By <strong>Daniel Marsh</strong>, Consumer Affairs</span>
       <span id="js-article-date"></span>
       <span>5 min read</span>
     </div>
-
-    <!-- ============================================================ -->
-    <!-- HERO-BUILDER: REPLACE: Photo of unfinished building work / damaged extension -->
-    <!-- Replace the div below with: <img src="your-image.jpg" class="article-hero-img" alt="..."> -->
-    <!-- ============================================================ -->
-    <div class="article-hero" id="HERO-BUILDER">
-      <div class="hero-caption">Photo: The Bromsgrove Herald</div>
-    </div>
+    <div class="article-hero" id="builder-hero"><div class="hero-caption">Photo: The Bromsgrove Herald</div></div>
     <div class="hero-caption-text">The Mitchells partially built extension in Stoke Heath, pictured last month. The family have been unable to contact the trader since he collected his second payment.</div>
-
-    <div class="ad-banner" style="margin-bottom:20px;">
-      <div class="ad-label">Advertisement</div>
-      <div class="ad-placeholder">[ AD SLOT: MID-ARTICLE — 300x250 display ]</div>
-    </div>
-
-    <div class="article-body">
-      <p>When the Mitchells decided to extend the family home in Stoke Heath last spring, they were determined not to be caught out. Sarah spent three weeks researching before making a single call.</p>
+    <div class="ad-banner" style="margin:16px 0;"><img src="ad2.jpg" alt="Advertisement"></div>
+    <div class="article-body"><p>When the Mitchells decided to extend the family home in Stoke Heath last spring, they were determined not to be caught out. Sarah spent three weeks researching before making a single call.</p>
       <p>"I read everything I could find about how to hire a builder safely," said Sarah. "I got three quotes. I checked his reviews, he had over sixty on Facebook and Google, all five stars. I asked for his insurance documents and he sent them over straight away. He even had a professionally designed website with before and after photos going back years."</p>
       <p>She and her husband Mark signed a written contract, agreed a staged payment schedule, and paid the first instalment of £2,500 only once work had physically begun.</p>
       <p>"Every box you are supposed to tick, we ticked," said Sarah. "I genuinely felt like we had done everything right."</p>
       <p>By June, with £6,000 paid across two instalments, the builder stopped responding. His Facebook page disappeared overnight and the website went offline. When Sarah tried the email address on his headed paper, it bounced back.</p>
       <p>A search of Companies House revealed the business name on their contract had been dissolved two years earlier. The insurance certificate he had provided, complete with a broker letterhead, turned out to be a forgery. The trade body logo on his website belonged to a membership he had never held.</p>
-      <p>The couple have since reported the matter to Worcestershire Trading Standards and Action Fraud. With no verified business address and payments made partly in cash, they hold little hope of recovering their money.</p>
-    </div>
-
-    <div class="pull-quote">
-      <p>"We did everything you are told to do. We just had no way of knowing the documents he gave us were not real."</p>
-      <cite>Sarah Mitchell, Stoke Heath</cite>
-    </div>
-
-    <div class="article-body">
-      <p>A 2023 report by consumer group Which? estimated that rogue traders cost British homeowners more than 1.8 billion annually, with building work topping the list of complaints every year.</p>
+      <p>The couple have since reported the matter to Worcestershire Trading Standards and Action Fraud. With no verified business address and payments made partly in cash, they hold little hope of recovering their money.</p></div>
+    <div class="pull-quote"><p>We did everything you are told to do. We just had no way of knowing the documents he gave us were not real.</p><cite>Sarah Mitchell, Stoke Heath</cite></div>
+    <div class="article-body"><p>A 2023 report by consumer group Which? estimated that rogue traders cost British homeowners more than 1.8 billion annually, with building work topping the list of complaints every year.</p>
       <p>"The reviews felt so real," said Sarah. "Some of them had photos attached. People had written paragraphs about their experience. It never crossed my mind that you could just buy all of that."</p>
-      <p>Mark Mitchell said the experience had shaken his faith in the conventional advice given to consumers. "Everyone tells you to check reviews, get insurance proof, use a reputable looking company. We did all of that. None of it meant anything, because none of it had actually been verified by anyone."</p>
-    </div>
-
-    <div class="ad-banner" style="margin: 8px 0 24px;">
-      <div class="ad-label">Advertisement</div>
-      <div class="ad-placeholder">[ AD SLOT: MID-ARTICLE — 300x250 display ]</div>
-    </div>
-
+      <p>Mark Mitchell said the experience had shaken his faith in the conventional advice given to consumers. "Everyone tells you to check reviews, get insurance proof, use a reputable looking company. We did all of that. None of it meant anything, because none of it had actually been verified by anyone."</p></div>
+    <div class="ad-banner" style="margin:16px 0;"><img src="ad3.jpg" alt="Advertisement"></div>
     <div class="protect-box">
       <div class="protect-box-title">What to do before hiring a builder</div>
       <ul class="protect-steps">
-        <li>
-          <span class="step-num">1</span>
-          <div><strong>Do your due diligence.</strong> Check with your local Trading Standards for any complaints or warnings. Ask the tradesperson if they have a VIA number and verify it at <a href="https://viacheck.co.uk" target="_blank">viacheck.co.uk</a>. And always ask for references from previous customers before committing to anything.</div>
-        </li>
-        <li>
-          <span class="step-num">2</span>
-          <div><strong>Never pay more than 10-20% upfront.</strong> Stagger payments to agreed milestones. Avoid cash wherever possible. Bank transfer creates a paper trail; cash leaves you with nothing if things go wrong.</div>
-        </li>
-        <li>
-          <span class="step-num">3</span>
-          <div><strong>Get everything in writing before work starts.</strong> A signed contract should include the full scope of work, agreed price, payment schedule, start date, and estimated completion. No reputable tradesperson will refuse to provide one.</div>
-        </li>
-        <li>
-          <span class="step-num">4</span>
-          <div><strong>Be wary of quotes significantly below others.</strong> Get at least three quotes. A price dramatically lower than the rest rarely means a bargain. It often signals cut corners or a trader who has no intention of finishing the job.</div>
-        </li>
+        <li><span class="step-num">1</span><div><strong>Do your due diligence.</strong> Check with your local Trading Standards for any complaints or warnings. Ask the tradesperson if they have a VIA number and verify it at <a href="https://viacheck.co.uk" target="_blank">viacheck.co.uk</a>. And always ask for references from previous customers before committing to anything.</div></li>
+        <li><span class="step-num">2</span><div><strong>Never pay more than 10-20% upfront.</strong> Stagger payments to agreed milestones. Avoid cash wherever possible. Bank transfer creates a paper trail; cash leaves you with nothing if things go wrong.</div></li>
+        <li><span class="step-num">3</span><div><strong>Get everything in writing before work starts.</strong> A signed contract should include the full scope of work, agreed price, payment schedule, start date, and estimated completion. No reputable tradesperson will refuse to provide one.</div></li>
+        <li><span class="step-num">4</span><div><strong>Be wary of quotes significantly below others.</strong> Get at least three quotes. A price dramatically lower than the rest rarely means a bargain. It often signals cut corners or a trader who has no intention of finishing the job.</div></li>
       </ul>
     </div>
-
-    <div class="article-body">
-      <p>The couple are now speaking out in the hope that other homeowners across Bromsgrove and Worcestershire will ask harder questions before handing over money and look beyond the things that are easy to fake.</p>
+    <div class="article-body"><p>The couple are now speaking out in the hope that other homeowners across Bromsgrove and Worcestershire will ask harder questions before handing over money and look beyond the things that are easy to fake.</p>
       <p>"A website costs fifty pounds. Reviews can be bought for less than that. Even an insurance certificate, apparently, can be copied and doctored," said Sarah. "What you need is someone who has actually checked, not just taken the trader word for it. That is what we did not have."</p>
-      <p><em>Daniel Marsh is the consumer affairs correspondent for The Bromsgrove Herald. If you have been affected by a rogue trader, contact our newsroom in confidence: <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="3f515a484c7f5d4d50524c584d50495a575a4d5e53115c50114a54">[email&#160;protected]</a></em></p>
+      <p><em>Daniel Marsh is the consumer affairs correspondent for The Bromsgrove Herald. If you have been affected by a rogue trader, contact our newsroom in confidence: news@bromsgroveheral.co.uk</em></p>
     </div>
-
-    <div class="ad-banner" style="margin: 8px 0 28px;">
-      <div class="ad-label">Advertisement</div>
-      <div class="ad-placeholder">[ AD SLOT: FOOTER BANNER — 320x50 mobile / 728x90 desktop ]</div>
-    </div>
-
+    <div class="ad-banner" style="margin:16px 0;"><img src="ad4-builder.jpg" alt="Advertisement"></div>
     <div class="related-section">
       <div class="related-label">Related Stories</div>
-      
-      
       <a href="index.html" class="related-item">
         <div class="related-thumb" style="background:linear-gradient(135deg,#e0c98a,#c4a24a);"></div>
-        <div>
-          <div class="related-item-headline">Trading Standards issue fresh warning over doorstep traders targeting elderly residents in Worcestershire</div>
-          <div class="related-item-date" id="rel-date-1"></div>
-        </div>
+        <div><div class="related-item-headline">Trading Standards issue fresh warning over doorstep traders targeting elderly residents in Worcestershire</div><div class="related-item-date" id="rel-date-1"></div></div>
       </a>
       <a href="index.html" class="related-item">
         <div class="related-thumb" style="background:linear-gradient(135deg,#b0b8c4,#7a8898);"></div>
-        <div>
-          <div class="related-item-headline">How to spot a fake review: consumer group reveals the warning signs on trade directories</div>
-          <div class="related-item-date" id="rel-date-2"></div>
-        </div>
+        <div><div class="related-item-headline">How to spot a fake review: consumer group reveals the warning signs on trade directories</div><div class="related-item-date" id="rel-date-2"></div></div>
       </a>
       <a href="index.html" class="related-item">
         <div class="related-thumb" style="background:linear-gradient(135deg,#a8c5a0,#6a9e72);"></div>
-        <div>
-          <div class="related-item-headline">Bromsgrove District Council urges residents to use accredited traders following rise in complaints</div>
-          <div class="related-item-date" id="rel-date-3"></div>
-        </div>
+        <div><div class="related-item-headline">Bromsgrove District Council urges residents to use accredited traders following rise in complaints</div><div class="related-item-date" id="rel-date-3"></div></div>
       </a>
-
-
+    </div>
   </div>
-
   <footer>
     <div class="footer-title">The Bromsgrove Herald</div>
     <div>
@@ -239,14 +170,19 @@
     </div>
     <div style="margin-top:10px;">&copy; <span id="js-year"></span> Bromsgrove Herald Ltd. All rights reserved.</div>
   </footer>
-
-  <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
-    var months = ["January","February","March","April","May","June","July","August","September","October","November","December"];
-    var days = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
-    var now = new Date();
-    document.getElementById("js-date").textContent = days[now.getDay()] + ", " + now.getDate() + " " + months[now.getMonth()] + " " + now.getFullYear();
-    document.getElementById("js-masthead-date").textContent = "Edition: " + now.getDate() + " " + months[now.getMonth()] + " " + now.getFullYear() + "  |  Price: 90p";
-    document.getElementById("js-year").textContent = now.getFullYear();
-    var yesterday = new Date(now); yesterday.setDate(now.getDate() - 1);
-    document.getElementById("js-article-date").textContent = yesterday.getDate() + " " + months[yesterday.getMonth()] + " " + now.getFullYear() + ", 07:30";
-    function relDate(n) { var d = new Date(now); d.setDate(now.getDate()-n); return d.getDate() + " " + months[d.getMonth()
+  <script>
+    var months=["January","February","March","April","May","June","July","August","September","October","November","December"];
+    var days=["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
+    var now=new Date();
+    document.getElementById("js-date").textContent=days[now.getDay()]+", "+now.getDate()+" "+months[now.getMonth()]+" "+now.getFullYear();
+    document.getElementById("js-masthead-date").textContent="Edition: "+now.getDate()+" "+months[now.getMonth()]+" "+now.getFullYear()+"  |  Price: 90p";
+    document.getElementById("js-year").textContent=now.getFullYear();
+    var yesterday=new Date(now); yesterday.setDate(now.getDate()-1);
+    if(document.getElementById("js-article-date")) document.getElementById("js-article-date").textContent=yesterday.getDate()+" "+months[yesterday.getMonth()]+" "+now.getFullYear()+", 07:30";
+    function relDate(n){var d=new Date(now);d.setDate(now.getDate()-n);return d.getDate()+" "+months[d.getMonth()]+" "+now.getFullYear();}
+    if(document.getElementById("rel-date-1")) document.getElementById("rel-date-1").textContent=relDate(3);
+    if(document.getElementById("rel-date-2")) document.getElementById("rel-date-2").textContent=relDate(7);
+    if(document.getElementById("rel-date-3")) document.getElementById("rel-date-3").textContent=relDate(11);
+  </script>
+</body>
+</html>

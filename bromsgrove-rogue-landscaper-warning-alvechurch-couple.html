@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Stoke Heath couple left with ruined garden after paying landscaper £5,200 - The Bromsgrove Herald</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400&family=Source+Serif+4:ital,opsz,wght@0,8..60,300;0,8..60,400;0,8..60,600;1,8..60,300;1,8..60,400&family=Barlow:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400&family=Source+Serif+4:ital,opsz,wght@0,8..60,300;0,8..60,400;0,8..60,600;1,8..60,300;1,8..60,400&family=Barlow:wght@400;500;600;700&display=swap" rel="stylesheet">
   <script>
     !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
     n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
@@ -36,10 +36,13 @@
     nav ul { display: flex; list-style: none; padding: 0; min-width: max-content; width: 100%; justify-content: center; }
     nav ul li a { display: block; font-family: "Barlow", sans-serif; font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.06em; color: #fff; padding: 10px 12px; white-space: nowrap; transition: background 0.15s; }
     nav ul li a:hover { background: rgba(0,0,0,0.2); color: #fff; }
-    .ad-banner { background: var(--bg); border: 1px dashed #bbb; text-align: center; padding: 14px 16px; }
-    .ad-label { font-family: "Barlow", sans-serif; font-size: 10px; letter-spacing: 0.08em; text-transform: uppercase; color: #999; margin-bottom: 6px; }
-    .ad-placeholder { background: #e4e0d9; height: 60px; display: flex; align-items: center; justify-content: center; font-family: "Barlow", sans-serif; font-size: 11px; color: #aaa; letter-spacing: 0.04em; }
+    footer { background: var(--dark); color: #888; padding: 24px 16px; font-family: "Barlow", sans-serif; font-size: 11px; text-align: center; letter-spacing: 0.03em; line-height: 2; }
+    footer a { color: #888; }
+    footer a:hover { color: #fff; }
+    .footer-title { font-family: "Playfair Display", serif; font-size: 18px; font-weight: 900; color: #fff; margin-bottom: 8px; }
     .container { max-width: 700px; margin: 0 auto; padding: 0 16px; }
+    .ad-banner { text-align: center; margin: 0; padding: 0; line-height: 0; }
+    .ad-banner img { width: 100%; display: block; }
     .breadcrumb { font-family: "Barlow", sans-serif; font-size: 11px; color: #aaa; padding: 12px 0 0; letter-spacing: 0.03em; }
     .breadcrumb a { color: var(--red); }
     .breadcrumb span { margin: 0 5px; }
@@ -69,10 +72,7 @@
     .related-thumb { width: 60px; height: 60px; flex-shrink: 0; border-radius: 2px; }
     .related-item-headline { font-family: "Playfair Display", serif; font-size: 14px; font-weight: 700; line-height: 1.3; color: var(--dark); }
     .related-item-date { font-family: "Barlow", sans-serif; font-size: 10px; color: #aaa; margin-top: 4px; }
-    footer { background: var(--dark); color: #888; padding: 24px 16px; font-family: "Barlow", sans-serif; font-size: 11px; text-align: center; letter-spacing: 0.03em; line-height: 2; width: 100vw; position: relative; left: 50%; right: 50%; margin-left: -50vw; margin-right: -50vw; }
-    footer a { color: #888; }
-    .footer-title { font-family: "Playfair Display", serif; font-size: 18px; font-weight: 900; color: #fff; margin-bottom: 8px; }
-    @media (min-width: 600px) { .article-hero { height: 300px; } .ad-placeholder { height: 90px; } }
+    @media (min-width: 600px) { .article-hero { height: 300px; } }
   </style>
 </head>
 <body>
@@ -85,148 +85,79 @@
       <a href="index.html">Advertise</a>
     </div>
   </div>
-
   <header class="masthead">
     <div class="masthead-eyebrow">Serving Bromsgrove &amp; District Since 1858</div>
     <a href="index.html"><div class="masthead-title">The Bromsgrove <span>Herald</span></div></a>
     <div class="masthead-date" id="js-masthead-date"></div>
   </header>
-
   <nav>
     <ul>
       <li><a href="index.html">News</a></li>
-      <li><a href="#">Sport</a></li>
-      <li><a href="#">Business</a></li>
-      <li><a href="#">Community</a></li>
-      <li><a href="#">Property</a></li>
-      <li><a href="#">Jobs</a></li>
-      <li><a href="#">Obituaries</a></li>
-      <li><a href="#">Letters</a></li>
+      <li><a href="index.html">Sport</a></li>
+      <li><a href="index.html">Business</a></li>
+      <li><a href="index.html">Community</a></li>
+      <li><a href="index.html">Property</a></li>
+      <li><a href="index.html">Jobs</a></li>
+      <li><a href="index.html">Obituaries</a></li>
+      <li><a href="index.html">Letters</a></li>
     </ul>
   </nav>
-
-  <div class="ad-banner"><div class="container"><div class="ad-label">Advertisement</div><div class="ad-placeholder">[ AD SLOT: TOP BANNER — 320x50 mobile / 728x90 desktop ]</div></div></div>
-
+  <div class="ad-banner"><img src="ad1-landscaper.jpg" alt="Advertisement"></div>
   <div class="container">
-
-    <div class="breadcrumb">
-      <a href="index.html">Home</a><span>&rsaquo;</span>
-      <a href="#">News</a><span>&rsaquo;</span>
-      <a href="#">Consumer</a>
-    </div>
-
+    <div class="breadcrumb"><a href="index.html">Home</a><span>&rsaquo;</span><a href="index.html">News</a><span>&rsaquo;</span><a href="index.html">Consumer</a></div>
     <div class="article-kicker">Consumer Warning - Landscaping</div>
     <h1 class="article-headline">"He destroyed our garden and disappeared with £5,200": Stoke Heath couple warn over rogue landscaper</h1>
     <div class="article-standfirst">Retired couple Sarah and Mark Mitchell paid a landscaper nearly a third more than his original quote after a series of unexpected extras. When they refused a further payment demand, he abandoned the job overnight and has not been seen since.</div>
-
     <div class="article-meta">
       <span class="meta-tag">Consumer</span>
       <span>By <strong>Daniel Marsh</strong>, Consumer Affairs</span>
       <span id="js-article-date"></span>
       <span>5 min read</span>
     </div>
-
-    <!-- ============================================================ -->
-    <!-- HERO-LANDSCAPER: REPLACE: Photo of ruined garden / damaged landscaping -->
-    <!-- Replace the div below with: <img src="your-image.jpg" class="article-hero-img" alt="..."> -->
-    <!-- ============================================================ -->
-    <div class="article-hero" id="HERO-LANDSCAPER">
-      <div class="hero-caption">Photo: The Bromsgrove Herald</div>
-    </div>
+    <div class="article-hero" id="landscaper-hero"><div class="hero-caption">Photo: The Bromsgrove Herald</div></div>
     <div class="hero-caption-text">The Mitchell garden in Stoke Heath, left in a worse state than before work began. Plants were removed and not replaced, and drainage work was left half finished.</div>
-
-    <div class="ad-banner" style="margin-bottom:20px;">
-      <div class="ad-label">Advertisement</div>
-      <div class="ad-placeholder">[ AD SLOT: MID-ARTICLE — 300x250 display ]</div>
-    </div>
-
-    <div class="article-body">
-      <p>Sarah and Mark Mitchell had been planning a garden redesign at their Stoke Heath home for two years. When they found a landscaper online with an attractive portfolio and strong reviews, they felt the time was right.</p>
+    <div class="ad-banner" style="margin:16px 0;"><img src="ad2.jpg" alt="Advertisement"></div>
+    <div class="article-body"><p>Sarah and Mark Mitchell had been planning a garden redesign at their Stoke Heath home for two years. When they found a landscaper online with an attractive portfolio and strong reviews, they felt the time was right.</p>
       <p>The original quote was £3,800 for new planting, a relined pond, and improved drainage. Sarah, 58, said she felt reassured by the detail in the proposal. "It was very professional. He broke everything down by task and gave us a clear timeline."</p>
       <p>Work began well. But within a week, additional charges began to appear. The soil required treatment. The drainage was more complex than anticipated. A specific plant variety was more expensive. Each request was for a few hundred pounds.</p>
       <p>"Each one seemed reasonable on its own," said Mark, 54. "It is only when you add them up you realise what has happened."</p>
       <p>By the time the total reached £5,200, the Mitchells refused a further demand for £800 to complete what they had originally been promised. The landscaper told them he would return after the weekend. He did not. Several established plants had been removed and not replaced. The pond liner had been taken out but not refitted. Drainage channels had been dug but left open.</p>
-      <p>Sarah described the garden as being in a worse state than before he had arrived. "We paid a man more than five thousand pounds to vandalise our garden and drive away."</p>
-    </div>
-
-    <div class="pull-quote">
-      <p>"Each extra charge seemed reasonable on its own. It is only when you add them all up that you realise what has been done to you."</p>
-      <cite>Sarah Mitchell, Stoke Heath</cite>
-    </div>
-
-    <div class="article-body">
-      <p>Escalating quote fraud is a well-documented tactic in the landscaping and garden trade, where it can be difficult for homeowners to judge whether additional costs are genuine or fabricated. Unlike building work, there is no formal licensing or accreditation requirement for landscapers in England, making it easier for fraudsters to operate.</p>
+      <p>Sarah described the garden as being in a worse state than before he had arrived. "We paid a man more than five thousand pounds to vandalise our garden and drive away."</p></div>
+    <div class="pull-quote"><p>Each extra charge seemed reasonable on its own. It is only when you add them all up that you realise what has been done to you.</p><cite>Sarah Mitchell, Stoke Heath</cite></div>
+    <div class="article-body"><p>Escalating quote fraud is a well-documented tactic in the landscaping and garden trade, where it can be difficult for homeowners to judge whether additional costs are genuine or fabricated. Unlike building work, there is no formal licensing or accreditation requirement for landscapers in England, making it easier for fraudsters to operate.</p>
       <p>"Anyone can call themselves a landscaper," said a Worcestershire Trading Standards spokesperson. "There is no legal barrier. That makes it particularly important for consumers to verify credentials independently before any work begins, rather than relying on a portfolio and a set of reviews that may not be genuine."</p>
-      <p>The Mitchells have reported the matter to Trading Standards and are taking advice on whether to pursue a civil claim. However, with no verifiable business address and payments made partly by cash and partly by bank transfer to a personal account, the prospects of recovery are uncertain.</p>
-    </div>
-
-    <div class="ad-banner" style="margin: 8px 0 24px;">
-      <div class="ad-label">Advertisement</div>
-      <div class="ad-placeholder">[ AD SLOT: MID-ARTICLE — 300x250 display ]</div>
-    </div>
-
+      <p>The Mitchells have reported the matter to Trading Standards and are taking advice on whether to pursue a civil claim. However, with no verifiable business address and payments made partly by cash and partly by bank transfer to a personal account, the prospects of recovery are uncertain.</p></div>
+    <div class="ad-banner" style="margin:16px 0;"><img src="ad3.jpg" alt="Advertisement"></div>
     <div class="protect-box">
       <div class="protect-box-title">What to do before hiring a landscaper</div>
       <ul class="protect-steps">
-        <li>
-          <span class="step-num">1</span>
-          <div><strong>Do your due diligence.</strong> Check with your local Trading Standards for any complaints or warnings. Ask the tradesperson if they have a VIA number and verify it at <a href="https://viacheck.co.uk" target="_blank">viacheck.co.uk</a>. And always ask for references from previous customers before committing to anything.</div>
-        </li>
-        <li>
-          <span class="step-num">2</span>
-          <div><strong>Never pay more than 10-20% upfront.</strong> Stagger payments to agreed milestones. Avoid cash wherever possible. Bank transfer creates a paper trail; cash leaves you with nothing if things go wrong.</div>
-        </li>
-        <li>
-          <span class="step-num">3</span>
-          <div><strong>Get everything in writing before work starts.</strong> A signed contract should include the full scope of work, agreed price, payment schedule, start date, and estimated completion. No reputable tradesperson will refuse to provide one.</div>
-        </li>
-        <li>
-          <span class="step-num">4</span>
-          <div><strong>Be wary of quotes significantly below others.</strong> Get at least three quotes. A price dramatically lower than the rest rarely means a bargain. It often signals cut corners or a trader who has no intention of finishing the job.</div>
-        </li>
+        <li><span class="step-num">1</span><div><strong>Do your due diligence.</strong> Check with your local Trading Standards for any complaints or warnings. Ask the tradesperson if they have a VIA number and verify it at <a href="https://viacheck.co.uk" target="_blank">viacheck.co.uk</a>. And always ask for references from previous customers before committing to anything.</div></li>
+        <li><span class="step-num">2</span><div><strong>Never pay more than 10-20% upfront.</strong> Stagger payments to agreed milestones. Avoid cash wherever possible. Bank transfer creates a paper trail; cash leaves you with nothing if things go wrong.</div></li>
+        <li><span class="step-num">3</span><div><strong>Get everything in writing before work starts.</strong> A signed contract should include the full scope of work, agreed price, payment schedule, start date, and estimated completion. No reputable tradesperson will refuse to provide one.</div></li>
+        <li><span class="step-num">4</span><div><strong>Be wary of quotes significantly below others.</strong> Get at least three quotes. A price dramatically lower than the rest rarely means a bargain. It often signals cut corners or a trader who has no intention of finishing the job.</div></li>
       </ul>
     </div>
-
-    <div class="article-body">
-      <p>Sarah Mitchell said the experience had been distressing not just financially but personally. "That garden was something we had built over thirty years. To see it dug up and left like that was genuinely upsetting."</p>
+    <div class="article-body"><p>Sarah Mitchell said the experience had been distressing not just financially but personally. "That garden was something we had built over thirty years. To see it dug up and left like that was genuinely upsetting."</p>
       <p>The couple are urging other homeowners to make sure any additional costs during a job are agreed in writing before work continues. "The moment someone asks for more money than you agreed, stop. Get it in writing. Do not let work carry on until you have a signed amendment to the original contract."</p>
-      <p><em>Daniel Marsh is the consumer affairs correspondent for The Bromsgrove Herald. If you have been affected by a rogue trader, contact our newsroom in confidence: <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="7e101b090d3e1c0c11130d190c11081b161b0c1f12501d11500b15">[email&#160;protected]</a></em></p>
+      <p><em>Daniel Marsh is the consumer affairs correspondent for The Bromsgrove Herald. If you have been affected by a rogue trader, contact our newsroom in confidence: news@bromsgroveheral.co.uk</em></p>
     </div>
-
-    <div class="ad-banner" style="margin: 8px 0 28px;">
-      <div class="ad-label">Advertisement</div>
-      <div class="ad-placeholder">[ AD SLOT: FOOTER BANNER — 320x50 mobile / 728x90 desktop ]</div>
-    </div>
-
+    <div class="ad-banner" style="margin:16px 0;"><img src="ad4-landscaper.jpg" alt="Advertisement"></div>
     <div class="related-section">
       <div class="related-label">Related Stories</div>
-      
-      
       <a href="index.html" class="related-item">
         <div class="related-thumb" style="background:linear-gradient(135deg,#e0c98a,#c4a24a);"></div>
-        <div>
-          <div class="related-item-headline">Trading Standards issue fresh warning over doorstep traders targeting elderly residents in Worcestershire</div>
-          <div class="related-item-date" id="rel-date-1"></div>
-        </div>
+        <div><div class="related-item-headline">Trading Standards issue fresh warning over doorstep traders targeting elderly residents in Worcestershire</div><div class="related-item-date" id="rel-date-1"></div></div>
       </a>
       <a href="index.html" class="related-item">
         <div class="related-thumb" style="background:linear-gradient(135deg,#b0b8c4,#7a8898);"></div>
-        <div>
-          <div class="related-item-headline">How to spot a fake review: consumer group reveals the warning signs on trade directories</div>
-          <div class="related-item-date" id="rel-date-2"></div>
-        </div>
+        <div><div class="related-item-headline">How to spot a fake review: consumer group reveals the warning signs on trade directories</div><div class="related-item-date" id="rel-date-2"></div></div>
       </a>
       <a href="index.html" class="related-item">
         <div class="related-thumb" style="background:linear-gradient(135deg,#a8c5a0,#6a9e72);"></div>
-        <div>
-          <div class="related-item-headline">Bromsgrove District Council urges residents to use accredited traders following rise in complaints</div>
-          <div class="related-item-date" id="rel-date-3"></div>
-        </div>
+        <div><div class="related-item-headline">Bromsgrove District Council urges residents to use accredited traders following rise in complaints</div><div class="related-item-date" id="rel-date-3"></div></div>
       </a>
-
-
+    </div>
   </div>
-
   <footer>
     <div class="footer-title">The Bromsgrove Herald</div>
     <div>
@@ -238,14 +169,19 @@
     </div>
     <div style="margin-top:10px;">&copy; <span id="js-year"></span> Bromsgrove Herald Ltd. All rights reserved.</div>
   </footer>
-
-  <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
-    var months = ["January","February","March","April","May","June","July","August","September","October","November","December"];
-    var days = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
-    var now = new Date();
-    document.getElementById("js-date").textContent = days[now.getDay()] + ", " + now.getDate() + " " + months[now.getMonth()] + " " + now.getFullYear();
-    document.getElementById("js-masthead-date").textContent = "Edition: " + now.getDate() + " " + months[now.getMonth()] + " " + now.getFullYear() + "  |  Price: 90p";
-    document.getElementById("js-year").textContent = now.getFullYear();
-    var yesterday = new Date(now); yesterday.setDate(now.getDate() - 1);
-    document.getElementById("js-article-date").textContent = yesterday.getDate() + " " + months[yesterday.getMonth()] + " " + now.getFullYear() + ", 07:30";
-    function relDate(n) { var d = new Date(now); d.setDate(now.getDate()-n); return d.getDate() + " " + months[d.getMonth()
+  <script>
+    var months=["January","February","March","April","May","June","July","August","September","October","November","December"];
+    var days=["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
+    var now=new Date();
+    document.getElementById("js-date").textContent=days[now.getDay()]+", "+now.getDate()+" "+months[now.getMonth()]+" "+now.getFullYear();
+    document.getElementById("js-masthead-date").textContent="Edition: "+now.getDate()+" "+months[now.getMonth()]+" "+now.getFullYear()+"  |  Price: 90p";
+    document.getElementById("js-year").textContent=now.getFullYear();
+    var yesterday=new Date(now); yesterday.setDate(now.getDate()-1);
+    if(document.getElementById("js-article-date")) document.getElementById("js-article-date").textContent=yesterday.getDate()+" "+months[yesterday.getMonth()]+" "+now.getFullYear()+", 07:30";
+    function relDate(n){var d=new Date(now);d.setDate(now.getDate()-n);return d.getDate()+" "+months[d.getMonth()]+" "+now.getFullYear();}
+    if(document.getElementById("rel-date-1")) document.getElementById("rel-date-1").textContent=relDate(3);
+    if(document.getElementById("rel-date-2")) document.getElementById("rel-date-2").textContent=relDate(7);
+    if(document.getElementById("rel-date-3")) document.getElementById("rel-date-3").textContent=relDate(11);
+  </script>
+</body>
+</html>
