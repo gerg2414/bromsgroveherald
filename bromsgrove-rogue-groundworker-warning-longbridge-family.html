@@ -23,7 +23,7 @@
     body { font-family: "Source Serif 4", Georgia, serif; background: var(--bg); color: var(--ink); font-size: 16px; line-height: 1.7; }
     a { color: inherit; text-decoration: none; }
     a:hover { color: var(--red); }
-    .top-bar { background: var(--dark); color: #aaa; font-family: "Barlow", sans-serif; font-size: 11px; font-weight: £500; letter-spacing: 0.04em; text-transform: uppercase; padding: 6px 16px; display: flex; justify-content: space-between; align-items: center; }
+    .top-bar { background: var(--dark); color: #aaa; font-family: "Barlow", sans-serif; font-size: 11px; font-weight: 500; letter-spacing: 0.04em; text-transform: uppercase; padding: 6px 16px; display: flex; justify-content: space-between; align-items: center; }
     .top-bar a { color: #aaa; }
     .top-bar a:hover { color: var(--white); }
     .top-bar-links { display: flex; gap: 16px; }
@@ -50,7 +50,7 @@
     .article-meta strong { color: var(--mid); }
     .meta-tag { background: var(--red); color: #fff; font-size: 9px; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; padding: 2px 7px; border-radius: 2px; }
     .article-hero { width: 100%; height: 200px; background: linear-gradient(160deg, #c8ced6 0%, #9daab8 100%); display: flex; align-items: flex-end; padding: 10px 14px; margin-bottom: 6px; position: relative; overflow: hidden; }
-    .article-hero::after { content: ""; position: absolute; inset: 0; background: linear-gradient(to top, rgba(0,0,0,0.45) 0%, transparent £50%); }
+    .article-hero::after { content: ""; position: absolute; inset: 0; background: linear-gradient(to top, rgba(0,0,0,0.45) 0%, transparent 50%); }
     .hero-caption { position: relative; z-index: 1; font-family: "Barlow", sans-serif; font-size: 10px; color: rgba(255,255,255,0.75); }
     .hero-caption-text { font-family: "Barlow", sans-serif; font-size: 11px; color: #999; font-style: italic; margin-bottom: 20px; }
     .article-body p { margin-bottom: 18px; font-size: 16px; line-height: 1.75; color: var(--ink); }
@@ -61,7 +61,7 @@
     .protect-box-title { font-family: "Barlow", sans-serif; font-size: 11px; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--red); margin-bottom: 18px; }
     .protect-steps { list-style: none; padding: 0; margin: 0; }
     .protect-steps li { display: flex; gap: 14px; margin-bottom: 18px; font-size: 15px; line-height: 1.65; color: var(--ink); font-family: "Source Serif 4", serif; }
-    .step-num { flex-shrink: 0; width: 26px; height: 26px; background: var(--red); color: #fff; font-family: "Barlow", sans-serif; font-weight: 700; font-size: 12px; display: flex; align-items: center; justify-content: center; border-radius: £50%; margin-top: 3px; }
+    .step-num { flex-shrink: 0; width: 26px; height: 26px; background: var(--red); color: #fff; font-family: "Barlow", sans-serif; font-weight: 700; font-size: 12px; display: flex; align-items: center; justify-content: center; border-radius: 50%; margin-top: 3px; }
     .protect-steps a { color: var(--red); text-decoration: underline; font-weight: 600; }
     .related-section { border-top: 3px solid var(--dark); margin: 28px 0 24px; padding-top: 14px; }
     .related-label { font-family: "Barlow", sans-serif; font-size: 10px; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--dark); margin-bottom: 14px; }
@@ -105,7 +105,7 @@
     </ul>
   </nav>
 
-  <div class="ad-banner"><div class="container"><div class="ad-label">Advertisement</div><div class="ad-placeholder">[ 320x50 / 728x90 Banner Ad ]</div></div></div>
+  <div class="ad-banner"><div class="container"><div class="ad-label">Advertisement</div><div class="ad-placeholder">[ AD SLOT: TOP BANNER — 320x50 mobile / 728x90 desktop ]</div></div></div>
 
   <div class="container">
 
@@ -126,14 +126,18 @@
       <span>5 min read</span>
     </div>
 
-    <div class="article-hero">
-      <div class="hero-caption">Photo: stock image</div>
+    <!-- ============================================================ -->
+    <!-- HERO-GROUNDWORKER: REPLACE: Photo of open trench / damaged driveway -->
+    <!-- Replace the div below with: <img src="your-image.jpg" class="article-hero-img" alt="..."> -->
+    <!-- ============================================================ -->
+    <div class="article-hero" id="HERO-GROUNDWORKER">
+      <div class="hero-caption">Photo: The Bromsgrove Herald</div>
     </div>
     <div class="hero-caption-text">The Mitchell property in Stoke Heath, where an unfinished trench has been left open for weeks. The family have had to barrier it off due to safety concerns.</div>
 
     <div class="ad-banner" style="margin-bottom:20px;">
       <div class="ad-label">Advertisement</div>
-      <div class="ad-placeholder">[ 300x250 Display Ad ]</div>
+      <div class="ad-placeholder">[ AD SLOT: MID-ARTICLE — 300x250 display ]</div>
     </div>
 
     <div class="article-body">
@@ -158,7 +162,7 @@
 
     <div class="ad-banner" style="margin: 8px 0 24px;">
       <div class="ad-label">Advertisement</div>
-      <div class="ad-placeholder">[ 300x250 Display Ad ]</div>
+      <div class="ad-placeholder">[ AD SLOT: MID-ARTICLE — 300x250 display ]</div>
     </div>
 
     <div class="protect-box">
@@ -186,32 +190,32 @@
     <div class="article-body">
       <p>Mark Mitchell said he wanted other homeowners to know that even doing the basics correctly is not always enough. "We got a written quote. We agreed staged payments. He just bypassed that at the crucial moment and we were not firm enough."</p>
       <p>"Never agree to pay in full for materials upfront, no matter how convincing the explanation," he said. "If a trader needs that kind of trust from you before the job is done, that is the moment to stop."</p>
-      <p><em>Daniel Marsh is the consumer affairs correspondent for The Bromsgrove Herald. If you have been affected by a rogue trader, contact our newsroom in confidence: news@bromsgroveheral.co.uk</em></p>
+      <p><em>Daniel Marsh is the consumer affairs correspondent for The Bromsgrove Herald. If you have been affected by a rogue trader, contact our newsroom in confidence: <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="bed0dbc9cdfedcccd1d3cdd9ccd1c8dbd6dbccdfd290ddd190cbd5">[email&#160;protected]</a></em></p>
     </div>
 
     <div class="ad-banner" style="margin: 8px 0 28px;">
       <div class="ad-label">Advertisement</div>
-      <div class="ad-placeholder">[ 320x50 / 728x90 Footer Ad ]</div>
+      <div class="ad-placeholder">[ AD SLOT: FOOTER BANNER — 320x50 mobile / 728x90 desktop ]</div>
     </div>
 
     <div class="related-section">
       <div class="related-label">Related Stories</div>
       <a href="#" class="related-item">
-        <div class="related-thumb" style="background:linear-gradient(135deg,#e0c98a,#c4a24a);"></div>
+        <div class="related-thumb" style="background:linear-gradient(135deg,#e0c98a,#c4a24a);"><!-- RELATED-THUMB-1: replace with <img> --></div>
         <div>
           <div class="related-item-headline">Trading Standards issue fresh warning over doorstep traders targeting elderly residents in Worcestershire</div>
           <div class="related-item-date" id="rel-date-1"></div>
         </div>
       </a>
       <a href="#" class="related-item">
-        <div class="related-thumb" style="background:linear-gradient(135deg,#b0b8c4,#7a8898);"></div>
+        <div class="related-thumb" style="background:linear-gradient(135deg,#b0b8c4,#7a8898);"><!-- RELATED-THUMB-2: replace with <img> --></div>
         <div>
           <div class="related-item-headline">How to spot a fake review: consumer group reveals warning signs on trade directories</div>
           <div class="related-item-date" id="rel-date-2"></div>
         </div>
       </a>
       <a href="#" class="related-item">
-        <div class="related-thumb" style="background:linear-gradient(135deg,#a8c5a0,#6a9e72);"></div>
+        <div class="related-thumb" style="background:linear-gradient(135deg,#a8c5a0,#6a9e72);"><!-- RELATED-THUMB-3: replace with <img> --></div>
         <div>
           <div class="related-item-headline">Bromsgrove District Council urges residents to use accredited traders following rise in complaints</div>
           <div class="related-item-date" id="rel-date-3"></div>
@@ -232,7 +236,7 @@
     <div style="margin-top:10px;">&copy; <span id="js-year"></span> Bromsgrove Herald Ltd. All rights reserved.</div>
   </footer>
 
-  <script>
+  <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
     var months = ["January","February","March","April","May","June","July","August","September","October","November","December"];
     var days = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
     var now = new Date();
@@ -241,11 +245,4 @@
     document.getElementById("js-year").textContent = now.getFullYear();
     var yesterday = new Date(now); yesterday.setDate(now.getDate() - 1);
     document.getElementById("js-article-date").textContent = yesterday.getDate() + " " + months[yesterday.getMonth()] + " " + now.getFullYear() + ", 07:30";
-    function relDate(n) { var d = new Date(now); d.setDate(now.getDate()-n); return d.getDate() + " " + months[d.getMonth()]; }
-    document.getElementById("rel-date-1").textContent = relDate(3);
-    document.getElementById("rel-date-2").textContent = relDate(6);
-    document.getElementById("rel-date-3").textContent = relDate(9);
-  </script>
-
-</body>
-</html>
+    function relDate(n) { var d = new Date(now); d.setDate(now.getDate()-n); return d.getDate() + " " + months[d.getMonth()
