@@ -178,7 +178,7 @@
     document.getElementById("js-masthead-date").textContent="Edition: "+now.getDate()+" "+months[now.getMonth()]+" "+now.getFullYear()+"  |  Price: 90p";
     document.getElementById("js-year").textContent=now.getFullYear();
     var yesterday=new Date(now); yesterday.setDate(now.getDate()-1);
-    if(document.getElementById("js-article-date")) document.getElementById("js-article-date").textContent=yesterday.getDate()+" "+months[yesterday.getMonth()]+" "+now.getFullYear()+", 07:30";
+    if(document.getElementById("js-article-date")) document.getElementById("js-article-date").textContent="14 October 2025, 07:30";
     function relDate(n){var d=new Date(now);d.setDate(now.getDate()-n);return d.getDate()+" "+months[d.getMonth()]+" "+now.getFullYear();}
     if(document.getElementById("rel-date-1")) document.getElementById("rel-date-1").textContent=relDate(3);
     if(document.getElementById("rel-date-2")) document.getElementById("rel-date-2").textContent=relDate(7);
